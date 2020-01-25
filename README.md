@@ -1,6 +1,6 @@
 ## SaleskenProblemSolving
 - Clone github and change dir to "SaleskenProblem"
-`git clone `
+`git clone https://github.com/Akshay-Udnur/SaleskenProblem.git`
 - Create virtual environment  `virtualenv --python=python3.6 venv`
 - Activate virtual environment `source venv/bin/activate`
 - Install requirements.txt `pip install -r requirements.txt`
