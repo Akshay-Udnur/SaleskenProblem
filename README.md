@@ -6,7 +6,7 @@
 - Install requirements.txt `pip install -r requirements.txt`
 
 ### Problem 1 - 
-Run problem_statement_1.py in python shell. It will create .csv of result with misspelt_name and list of ids for each misspelt city name.
+Run `python problem_statement_1.py` in Terminal. It will create .csv of result with misspelt_name and list of ids for each misspelt city name.
 
 ### Problem 2 -
 Run rest_api.py in Terminal `python rest_api.py` to start REST Api of get similar sentences.
