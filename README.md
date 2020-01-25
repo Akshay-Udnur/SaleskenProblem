@@ -1,5 +1,5 @@
 ## SaleskenProblemSolving
-- Clone github and change dir to "SaleskenProblem"
+- Clone github and change dir to "SaleskenProblem" <br />
 `git clone https://github.com/Akshay-Udnur/SaleskenProblem.git`
 - Create virtual environment  `virtualenv --python=python3.6 venv`
 - Activate virtual environment `source venv/bin/activate`
