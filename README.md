@@ -1,5 +1,5 @@
 ## SaleskenProblemSolving
-- Clone github and change dir to "SaleskenProblemSolving"
+- Clone github and change dir to "SaleskenProblem"
 `git clone `
 - Create virtual environment  `virtualenv --python=python3.6 venv`
 - Activate virtual environment `source venv/bin/activate`
