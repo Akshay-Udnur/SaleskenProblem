@@ -1,4 +1,5 @@
 import pandas as pd 
+from tqdm import tqdm
 correct_cities = pd.read_csv("Correct_cities.csv")
 misspelt_cities = pd.read_csv("Misspelt_cities.csv")
 
@@ -11,7 +12,7 @@ def frequency_true(var):
 
 result = {}
 
-for i in range(len(misspelt_cities)):
+for i in tqdm(range(len(misspelt_cities))):
     misspelt_name = misspelt_cities.loc[i]['misspelt_name']
     country = misspelt_cities.loc[i]['country']
     correct_cities_country = correct_cities[correct_cities['country'] == country]
