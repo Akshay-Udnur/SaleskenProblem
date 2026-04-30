@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
   Start["START"] --> MR["MemoryRetrieveNode\n- fetch past attempts\n- fetch promises/disputes"]
   MR --> RN["ReactNode\n- plan next step for current turn\n- select tool_name + arguments when needed\n- or choose direct response"]
@@ -28,3 +29,4 @@ flowchart TD
   end
 
   TE -.uses.-> TBOX
+```
