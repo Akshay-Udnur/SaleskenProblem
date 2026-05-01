@@ -37,12 +37,12 @@ flowchart TD
     T14["negotiation_agent_tool"]
     T15["qa_review_agent_tool"]
     T16["dispute_triage_agent_tool"]
+    T9["payment_status_check"]
   end
 
   subgraph DECISION["ReactNode_Decision Tools"]
     T13["human_escalation"]
     T8["payment_link_create"]
-    T9["payment_status_check"]
   end
 
   TE1 -.uses.-> CUST
